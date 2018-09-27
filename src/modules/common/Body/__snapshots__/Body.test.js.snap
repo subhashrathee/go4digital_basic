@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body component 1`] = `
+<div
+  className="main"
+>
+  <h1>
+    go4digital website and marketing agency
+  </h1>
+  <p>
+    Default body content
+  </p>
+</div>
+`;

@@ -1,0 +1,112 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header component 1`] = `
+<header>
+  <div
+    id="wrap"
+  >
+    <a
+      aria-current="true"
+      className="active"
+      href="/"
+      onClick={[Function]}
+      style={Object {}}
+    >
+      <img
+        alt="Logo"
+        className="logo"
+        src="/img/logo.png"
+      />
+    </a>
+    <nav
+      id="nav"
+    >
+      <ul>
+        <li>
+          <a
+            aria-current="true"
+            className="selected"
+            href="/"
+            onClick={[Function]}
+            style={Object {}}
+          >
+            go4digital
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={false}
+            className={undefined}
+            href="/services/"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Services
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={false}
+            className={undefined}
+            href="/about_us/"
+            onClick={[Function]}
+            style={undefined}
+          >
+            About
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={false}
+            className={undefined}
+            href="/blog/"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Blog
+          </a>
+        </li>
+        <li>
+          <a
+            aria-current={false}
+            className={undefined}
+            href="/contact_us/"
+            onClick={[Function]}
+            style={undefined}
+          >
+            Contact
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.instagram.com/go4digital1/"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="Instagram"
+          >
+            <img
+              alt="Instagram Icon"
+              className="instagram-header-icon"
+              src="/img/instagram-header-icon.png"
+            />
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://www.facebook.com/Go4digital-964819073705597/"
+            rel="noopener noreferrer"
+            target="_blank"
+            title="go4digital at Facebook"
+          >
+            <img
+              alt="Facebook Icon"
+              className="instagram-header-icon"
+              src="/img/FB-f-Logo__blue_29.png"
+            />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+`;

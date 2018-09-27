@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MyComponent /> renders a contctUsFormComponent 1`] = `
+<div
+  className="main"
+>
+  <div
+    id="thankYouMessage"
+    style={
+      Object {
+        "display": "none",
+      }
+    }
+  >
+    <p>
+      Thanks for submitting your enquiry. We'll get back to you shortly
+    </p>
+  </div>
+  <form
+    id="form"
+  >
+    <p>
+      Call Sarita Singh for any enquiries on: 0414 043 200
+    </p>
+    <label
+      id="emailLabel"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      Email
+    </label>
+    <input
+      id="email"
+      name="email"
+      onChange={[Function]}
+      placeholder="Email address"
+      required={true}
+      type="email"
+      value=""
+    />
+    <div
+      className="error"
+      id="emailError"
+      style={
+        Object {
+          "color": "red",
+          "fontSize": "12px",
+          "marginTop": "5px",
+        }
+      }
+    >
+      
+    </div>
+    <br />
+    <label
+      id="messageLabel"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      Message
+    </label>
+    <textarea
+      cols="30"
+      id="message"
+      name="message"
+      onChange={[Function]}
+      placeholder="Message"
+      required={true}
+      rows="5"
+      value=""
+    />
+    <div
+      className="error"
+      id="messageError"
+      style={
+        Object {
+          "color": "red",
+          "fontSize": "12px",
+          "marginTop": "5px",
+        }
+      }
+    >
+      
+    </div>
+    <br />
+    <label
+      id="forbiddenInputLabel"
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    />
+    <input
+      id="forbiddenInput"
+      name="forbiddenInput"
+      onChange={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      type="input"
+      value=""
+    />
+    <input
+      name="submit"
+      onClick={[Function]}
+      type="submit"
+      value="Submit"
+    />
+  </form>
+</div>
+`;
