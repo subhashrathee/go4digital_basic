@@ -1,10 +1,10 @@
 import React from 'react'
 import Body from '../../common/Body/Body'
 import Footer from '../../common/Footer/Footer'
-import JSONContent from '../../config/content/about_us.js' 
+import JSONContent from '../../config/content/blog.js'
 
 //Content passed into body component
-const content = JSONContent.about_us.join('');
+const content = JSONContent.blog.join('');
 
 /**
 * About the class page component used to render the page.
@@ -13,16 +13,16 @@ const content = JSONContent.about_us.join('');
 * 
 * State vars: None
 */
-class About extends React.Component {
+class Blog extends React.Component {
   render () {
     return (
       <div>
-        <div  className="hero-image-about"></div>
-        <Body heading="About go4digital" content={content} />
+        <div  className="hero-image-blog"></div>
+        <Body heading="Blog" content={'coming soon'} />
         <Footer />
       </div>
     )
   }
 }
 
-export default About;
+export default Blog;

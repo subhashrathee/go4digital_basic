@@ -1,10 +1,10 @@
 import React from 'react'
 import Body from '../../common/Body/Body'
 import Footer from '../../common/Footer/Footer'
-import JSONContent from '../../config/content/home.js' 
+import JSONContent from '../../config/content/home.js'
 
 //content passed into body component
-const content = JSONContent.homepage.join('');
+const content = JSONContent.homepage;
 
 /**
 * Home page component used to render the page.
@@ -19,7 +19,7 @@ class Home extends React.Component {
     return (
       <div> 
         <div className="hero-image-home"></div>
-        <Body heading="Buk Sing Choy Lay Fut" content={content}/>
+        <Body heading="go4digital: digital journey together" content={content}/>
         <Footer />
       </div>
     )

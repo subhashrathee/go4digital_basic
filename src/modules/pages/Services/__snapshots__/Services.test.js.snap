@@ -12,7 +12,7 @@ exports[`Services component 1`] = `
       Services
     </h1>
     <p>
-      Our Training comprises a variety and combination of:
+      Our services comprise a variety and combination of:
     </p>
     <ul>
       <li>
@@ -51,56 +51,6 @@ exports[`Services component 1`] = `
         Flexibility, Balance and Co-Ordination.
       </li>
     </ul>
-    <p>
-      <span
-        style={
-          Object {
-            "paddingLeft": "10px",
-          }
-        }
-      >
-        <iframe
-          allowtransperency="true"
-          frameBorder="0"
-          height="290"
-          scrolling="no"
-          src="//instagram.com/p/BZe5g8QjVyw/embed"
-          width="230"
-        />
-      </span>
-      <span
-        style={
-          Object {
-            "paddingLeft": "10px",
-          }
-        }
-      >
-        <iframe
-          allowtransperency="true"
-          frameBorder="0"
-          height="290"
-          scrolling="no"
-          src="//instagram.com/p/BcUS3zMDONZ/embed"
-          width="230"
-        />
-      </span>
-      <span
-        style={
-          Object {
-            "paddingLeft": "10px",
-          }
-        }
-      >
-        <iframe
-          allowtransperency="true"
-          frameBorder="0"
-          height="290"
-          scrolling="no"
-          src="//instagram.com/p/BZXa8wgjSr7/embed"
-          width="230"
-        />
-      </span>
-    </p>
   </div>
   <footer>
     <p>

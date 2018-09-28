@@ -148,7 +148,18 @@ header .instagram-header-icon {
   height: 390px;
   margin-left: 15%;
   background-color: #f3f3f3;
-  background-image: url('../img/hero-image-home.jpg');
+  background-image: url('../img/hero-image-home.png');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-image-contact {
+  width: 70%;
+  height: 390px;
+  margin-left: 15%;
+  background-color: #f3f3f3;
+  background-image: url('../img/hero-image-contact.jpg');
   background-position: center;
   background-size: cover;
   overflow: hidden;
@@ -171,6 +182,17 @@ header .instagram-header-icon {
   margin-left: 15%;
   background-color: #f3f3f3;
   background-image: url('../img/hero-image-about.jpg');
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.hero-image-blog {
+  width: 70%;
+  height: 390px;
+  margin-left: 15%;
+  background-color: #f3f3f3;
+  background-image: url('../img/hero-image-blog.jpg');
   background-position: center;
   background-size: cover;
   overflow: hidden;

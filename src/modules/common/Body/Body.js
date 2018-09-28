@@ -22,7 +22,7 @@ class Body extends React.Component {
     return (
       <div className="main">
         <h1>
-        {this.props.heading} 
+            {this.props.heading}
         </h1>
 
         {reactElement}

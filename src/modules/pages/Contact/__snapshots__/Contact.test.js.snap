@@ -3,7 +3,7 @@
 exports[`Contact component 1`] = `
 <div>
   <div
-    className="hero-image-home"
+    className="hero-image-contact"
   />
   <div
     className="main"

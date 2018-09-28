@@ -30,7 +30,7 @@ exports[`Header component 1`] = `
             onClick={[Function]}
             style={Object {}}
           >
-            go4digital
+            Home
           </a>
         </li>
         <li>

@@ -30,7 +30,7 @@ class Contact extends React.Component {
 
     return (
       <div>
-        <div className="hero-image-home"></div>
+        <div className="hero-image-contact"></div>
         <Body heading="Contact Us" content={content}/>
         <ContactUsForm />
        

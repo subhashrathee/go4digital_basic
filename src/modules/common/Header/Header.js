@@ -15,10 +15,14 @@ class Header extends React.Component {
     <div id="wrap">
           <NavLink exact={true}  to="/">
             <img className="logo" src="/img/logo.png" alt="Logo"/>
+            {/*<div>
+                <h1>go4digital</h1>
+                <h3>digital journey together</h3>
+            </div>*/}
           </NavLink>
           <nav id="nav">
           <ul>
-            <li><NavLink exact={true}  to="/" activeClassName="selected">go4digital</NavLink></li>
+            <li><NavLink exact={true}  to="/" activeClassName="selected">Home</NavLink></li>
             <li><NavLink to="/services/" activeClassName="selected">Services</NavLink></li>
             <li><NavLink to="/about_us/" activeClassName="selected">About</NavLink></li>
             <li><NavLink to="/blog/" activeClassName="selected">Blog</NavLink></li>
@@ -28,8 +32,7 @@ class Header extends React.Component {
             
             <li><a href="https://www.facebook.com/Go4digital-964819073705597/" title="go4digital at Facebook" target="_blank" rel="noopener noreferrer">
               <img className="instagram-header-icon" src="/img/FB-f-Logo__blue_29.png" alt="Facebook Icon" /></a></li>
-            
-            
+
           </ul>
         </nav>
     </div>

@@ -3,3 +3,5 @@
 *.swp
 /src/modules/config/config.json
 /build/
+.idea/
+.storybook/
