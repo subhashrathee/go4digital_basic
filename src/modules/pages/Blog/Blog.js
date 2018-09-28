@@ -18,7 +18,7 @@ class Blog extends React.Component {
     return (
       <div>
         <div  className="hero-image-blog"></div>
-        <Body heading="Blog" content={'coming soon'} />
+        <Body heading="Blog" content={content} />
         <Footer />
       </div>
     )
